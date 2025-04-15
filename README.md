@@ -1,6 +1,8 @@
 # BUID++
 
-A browser extension that provides enhanced GPA tracking and grade assistance for BUID Opencampus students.
+![icon128](https://github.com/user-attachments/assets/8be17a67-c3a5-4927-981c-2dd9b0621a36)
+
+A browser extension that provides enhanced GPA tracking and grade assistance for BUID Opencampus student portal.
 
 ## Features
 
