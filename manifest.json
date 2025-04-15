@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "BUID++",
+  "version": "1.0",
+  "description": "Smarter GPA tracker and grade assistant for BUID Opencampus.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["https://eu-quercus.elluciancloud.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://eu-quercus.elluciancloud.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BUID++</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="extension-container">
+      <div class="header-section">
+        <h1>BUID++</h1>
+        <button id="toggleDark" class="toggle-dark">
+          <span class="light-icon">☀️</span>
+          <span class="dark-icon">🌙</span>
+        </button>
+      </div>
+
+      <div id="student-info" class="student-info-section">
+        <div class="info-loading">Loading student information...</div>
+      </div>
+
+      <div class="grades-section">
+        <h2>Course Results</h2>
+        <div id="grade-list" class="grade-table-container">
+          <div class="loading-message">Loading your grades...</div>
+        </div>
+      </div>
+
+      <div class="gpa-section">
+        <div class="gpa-calculation">
+          <div class="gpa-display">
+            <span class="gpa-label">Cumulative GPA:</span>
+            <span id="gpa" class="gpa-value">-</span>
+          </div>
+          <button id="calcBtn" class="calculate-button">Calculate GPA</button>
+        </div>
+      </div>
+
+      <div class="terms-section">
+        <div class="terms-header">
+          <h2>Term Progress</h2>
+          <button id="expandAllTerms" class="small-button">Expand All</button>
+        </div>
+        <div id="terms-list" class="terms-container">
+          <div class="loading-message">Loading term data...</div>
+        </div>
+      </div>
+
+      <div class="last-updated">
+        <small id="update-time">Data not yet loaded</small>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
