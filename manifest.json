@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "BUID++",
   "version": "1.0",
-  "description": "Smarter GPA tracker and grade assistant for BUID Opencampus.",
+  "description": "A browser extension that enhances the BUID Opencampus student portal by providing automatic GPA calculation, grade tracking, dark mode, and student information display.",
   "permissions": ["storage", "scripting", "activeTab"],
   "host_permissions": ["https://eu-quercus.elluciancloud.com/*"],
   "action": {
