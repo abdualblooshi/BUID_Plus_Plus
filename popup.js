@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!studentData || Object.values(studentData).every((v) => !v)) {
       infoSection.innerHTML =
-        "<p>No student information yet. Visit Opencampus first.</p>";
+        "<p>Visit Student Portal first or Refresh the page</p>";
       return;
     }
 
